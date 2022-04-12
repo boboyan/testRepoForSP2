@@ -1,3 +1,2 @@
-braintree
+
 Django==4.0.2
-Pillow
