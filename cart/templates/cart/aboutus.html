@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+
+
+    <title>About Us</title>
+</head>
+<body class="body">
+    <div class="about_our_food">
+        <h1>About Our Food</h1>
+    </div>
+    <div class="about-section">
+        <div>
+            <h2>Our food is something we're passionate about</h2>
+        <p>It was started by a group of burger enthusiasts who understood how to make tasty burgers at a low cost.
+        Dedicated to servicing Omaha's burger lovers and delivering to your doorstep. Our toasted buns will require two hands to grasp.
+        Our juicy, fresh burgers are served medium-rare with a side of fries and a ton of flavor.</p>
+
+        </div>
+    </div>
+    <footer class="page-footer font-small blue pt-4">
+        <div class="container-fluid text-center text-md-left">
+            <div class="row">
+                <div class="col-md-6 mt-md-0 mt-3">
+                    <img src="{% static 'img/about-ct.jpeg' %}" class="w-50 p-4" alt="About Us image">
+                    <h5 class="text-uppercase">     6001 Dodge St, Omaha, NE 68182</h5>
+                </div>
+                <div class="col-md-3 mb-md-0 mb-3">
+                    <h5 class="text-uppercase">Main Menu</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/">Shop</a></li>
+                        <li><a href="/contactus">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 mb-md-0 mb-3">
+                    <h5 class="text-uppercase">Find Us On</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="https://www.facebook.com/">Facebook</a></li>
+                        <li><a href="https://twitter.com/">Twitter</a></li>
+                        <li><a href="https://www.instagram.com/">Instagram</a></li>
+                    </ul>
+                </div>
+                <div class="container">
+                    <p>
+                    <br><br><br>
+                    <a href="#">Terms &amp; Conditions</a> |
+                    <a href="#">Privacy Policy</a> |
+                    <a href="/contactus">Contact</a>
+                    </p>
+                    <p>Copyright &copy; Speedburger.com 2021</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
